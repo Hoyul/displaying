@@ -17,6 +17,12 @@ header {
   align-items: center;
 }
 
+a {
+  text-decoration: underline;
+  color: seashell;
+  margin-right: 10px;
+}
+
 footer {
   text-align: left;
   padding-left: 20px;
@@ -24,8 +30,13 @@ footer {
 
 .flex-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.flex-container img {
+  height: 50px;
+  margin-left: 10px;
 }
 
 .main {
